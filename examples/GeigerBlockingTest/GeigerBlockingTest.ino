@@ -37,7 +37,7 @@ void setup(){
 
 void loop(){
     Serial.print("CPS: "); Serial.println(gc.getCPSBlocking(SAMPLE_PERIOD));
-    Serial.print("Dose: "); Serial.println(gc.getDoseBlocking(SAMPLE_PERIOD));
+    Serial.print("Dose (uSv/hr): "); Serial.println(gc.getDoseBlocking(SAMPLE_PERIOD));
 
     delay(100);
 }

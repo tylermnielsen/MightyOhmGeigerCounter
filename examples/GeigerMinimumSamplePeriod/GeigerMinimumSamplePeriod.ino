@@ -37,7 +37,7 @@ void setup(){
 
 void loop(){
     Serial.print("CPS: "); Serial.println(gc.getCPSRunning());
-    Serial.print("Dose: "); Serial.println(gc.getDoseRunning());
+    Serial.print("Dose (uSv/hr): "); Serial.println(gc.getDoseRunning());
 
     delay(1000);
 }
