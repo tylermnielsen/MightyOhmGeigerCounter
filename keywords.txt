@@ -7,3 +7,4 @@ getDoseRunning  KEYWORD2
 getInstDoseRunning  KEYWORD2
 refreshSample   KEYWORD2
 begin   KEYWORD2
+CPStoDose   KEYWORD2
